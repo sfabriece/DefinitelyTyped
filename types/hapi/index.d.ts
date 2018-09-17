@@ -1493,11 +1493,11 @@ export interface RouteOptionsSecureObject {
         /**
          * the max-age portion of the header, as a number. Default is 15768000.
          */
-        maxAge: number;
+        maxAge?: number;
         /**
          * a boolean specifying whether to add the includeSubDomains flag to the header.
          */
-        includeSubdomains: boolean;
+        includeSubDomains: boolean;
         /**
          * a boolean specifying whether to add the 'preload' flag (used to submit domains inclusion in Chrome's HTTP Strict Transport Security (HSTS) preload list) to the header.
          */
